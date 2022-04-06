@@ -1,0 +1,6 @@
+adapter: postgres
+database: db/test_guru
+user: yurap
+password: '2006yura' #Rails.application.credentials[:db_password]
+port: 5433
+#host: 5433/test_guru
