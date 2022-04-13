@@ -1,0 +1,15 @@
+I, [2022-04-13T12:08:28.573290 #19049]  INFO -- : Request: GET /tests/101?cat=at
+Handler: TestsController#show
+Parameters: {:id=>"101", "cat"=>"at"}
+Response: 200 [text/html] /tests/show.html.erb
+
+I, [2022-04-13T12:08:37.185669 #19049]  INFO -- : Request: GET /tests?cat=at
+Handler: TestsController#index
+Parameters: {:id=>nil, "cat"=>"at"}
+Response: 201 [text/html] /tests/index.html.erb
+
+I, [2022-04-13T12:08:57.005696 #19049]  INFO -- : Request: GET /tests/101?work=true
+Handler: TestsController#show
+Parameters: {:id=>"101", "work"=>"true"}
+Response: 200 [text/html] /tests/show.html.erb
+
